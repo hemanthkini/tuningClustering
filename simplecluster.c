@@ -241,7 +241,7 @@ void printList(ll* list)
 {
     while (list != NULL)
     {
-        printf("Note 1: %d, Note 2: %d, Difference: %d\n", list->n1, list->n2, list->x);
+        printf("Interval - Harmonics %d - %d, Difference: %d cents\n", list->n1, list->n2, list->x);
         list = list->next;
     }
     fflush(stdout);
